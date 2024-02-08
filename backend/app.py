@@ -15,7 +15,7 @@ def serve_data():
 
 def start_react():
     try:
-        os.chdir('./frontend/')  # Try to navigate to my-app directory
+        os.chdir('./frontend/reactApp')  # Try to navigate to my-app directory
     except FileNotFoundError:
         print("Could not find directory '.../frontend/my-app'. Please check that your paths are correct.")
         return  # If we can't find the directory we should not continue trying to start the process
