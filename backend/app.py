@@ -6,7 +6,7 @@ import subprocess
 # Switch this to False for production mode.
 # In production mode, Flask serves the static files.
 # In development mode, the React development server is used,
-DEV_MODE = False
+DEV_MODE = True
 
 app = Flask(__name__, static_folder='build')
 
